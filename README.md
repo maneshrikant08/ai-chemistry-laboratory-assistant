@@ -44,8 +44,7 @@ The goal of this chatbot is to help students and lab users interact with chemist
   - `[W#]` for web sources
 - `General chat handling`
   - greetings and personal follow-ups bypass source-heavy RAG rendering
-- `Improved UI`
-  - dark-mode presentation styling for demo use
+
 
 ## Project Structure
 
@@ -101,9 +100,9 @@ If you change source PDFs, chunk settings, or embeddings, rebuild the FAISS inde
 python AI_UseCase\rebuild_index.py
 ```
 
-## Recommended Demo Flow
+## Examples for Demo Flow
 
-Use these prompts during demonstration:
+Use these prompts during testing:
 
 1. `What is in unit 4?`
 2. Switch to `Web` mode and ask: `What is CNG?`
@@ -111,19 +110,12 @@ Use these prompts during demonstration:
 4. Upload a custom file and click `Upload`
 5. Toggle between `concise` and `detailed`
 
-## Streamlit Cloud Deployment
-
-Deploy the app with:
-
-- repository: this GitHub repository
-- app entrypoint: `AI_UseCase/app.py`
-- secrets configured in Streamlit Cloud, not committed to GitHub
 
 ### Deployment Link
 
-Add your Streamlit Cloud URL here after deployment:
+ Deployment link:
 
-`[Add deployment link here]`
+`https://ai-chemistry-laboratory-assistant-rgbkxs7w7q9egzpj8kc9rv.streamlit.app/`
 
 ## Challenges Faced
 
@@ -132,12 +124,3 @@ Add your Streamlit Cloud URL here after deployment:
 - preventing unsupported LLM answers when evidence is weak
 - balancing grounded question answering with normal conversational behavior
 - making the output clearer through source mode, citations, and UI improvements
-
-## Submission Notes
-
-For NeoStats submission, keep the repository public and reviewer-friendly:
-
-- do not commit real API keys
-- keep the README clear and runnable
-- include the deployment link in the final PPT
-- create the final zip without the virtual environment
