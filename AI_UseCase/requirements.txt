@@ -1,0 +1,13 @@
+streamlit
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain-core
+langchain-community
+faiss-cpu
+pymupdf
+python-docx
+pytesseract
+pillow
+requests
+python-dotenv

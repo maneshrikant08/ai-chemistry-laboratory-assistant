@@ -1,0 +1,29 @@
+# Secrets
+AI_UseCase/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit / local runtime
+streamlit.out.log
+streamlit.err.log
+data/chat_history.json
+
+# Temp upload files
+_tmp_upload.pdf
+_tmp_upload.docx
+_tmp_upload.png
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
